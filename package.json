@@ -1,0 +1,32 @@
+{
+  "name": "database-filler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npm run build && node build/index.js",
+    "create-query": "ts-node index.ts",
+    "build": "tsc",
+    "dev": "nodemon index.ts --exec ts-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garymsilva/Database-Filler.git"
+  },
+  "author": "garymsilva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garymsilva/Database-Filler/issues"
+  },
+  "homepage": "https://github.com/garymsilva/Database-Filler#readme",
+  "devDependencies": {
+    "@types/node": "^10.5.1",
+    "nodemon": "^1.17.5",
+    "ts-node": "^7.0.0",
+    "tslint": "^5.10.0",
+    "tslint-config-airbnb": "^5.9.2",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {}
+}
